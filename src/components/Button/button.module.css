@@ -1,0 +1,8 @@
+.button {
+  right: 44%;
+  padding: 10px;
+  top: 52%;
+  position: absolute;
+  background-color: darkred;
+  border: black 2px solid;
+}
