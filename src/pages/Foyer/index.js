@@ -7,10 +7,18 @@ class Foyer extends React.Component {
   buttonClickHandler = event => {
     console.log('clickemall');
   };
+
+  logBookClickHandler = event => {
+    console.log('clicked book');
+  };
+
   render() {
     return (
       <div className={styles.background}>
-        <MonsterLog className={styles.log} />
+        <MonsterLog
+          className={styles.logbook}
+          buttonClicked={event => this.logBookClickHandler(event)}
+        />
         <Button
           buttonClickHandler={event => this.buttonClickHandler(event)}
           className={styles.button}

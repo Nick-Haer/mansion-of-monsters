@@ -1,5 +1,11 @@
 .book {
-  background-color: black;
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
+  margin-left: 45px;
+  margin-top: 10px;
+}
+
+.logBookDiv {
+  height: 750px;
+  width: 20%;
 }
