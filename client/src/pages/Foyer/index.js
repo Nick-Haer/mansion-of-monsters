@@ -1,7 +1,7 @@
 import React from 'react';
 import MonsterLog from '../../components/MonsterLog';
 import Button from '../../components/Button';
-import styles from '../Foyer/foyer.module.css';
+import styles from './foyer.module.css';
 
 class Foyer extends React.Component {
   buttonClickHandler = event => {
